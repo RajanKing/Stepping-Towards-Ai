@@ -1,0 +1,541 @@
+# Step 1 optional
+
+
+
+
+ 
+# => Python 
+(Optional){installation}
+Why to learn Python?
+Keywords and identifier 
+import keyword as key
+print(key.kwlist,"number of keywords {}". format (len(key.kwlist))
+Explanation of keywords
+About Comment  and documentation and use of \ in sentences
+Identifiers
+And rules of valid identifiers
+Error of idenifier
+Indentation 
+Error and corrections
+Style of writing code
+Statements 
+Multi line statement \ or () or { }
+Multiple statements ; delemeter 
+Variables
+Assignments
+A=10 background and internal view
+Identifier and variable relationship
+Autodata type declaration and memory location
+(Type)
+Multiple assignment a,b,c=10,12,13
+A=b=c=12
+Storage location (id)
+Same address for same data literal
+Data types
+Object is everything in python
+Numbers
+Integer float complex 
+Use of type () and isinstance() {object type,belongs to which class}
+Type (12)
+Isinstance (12,int)
+IT automatically know based on the assignment of value
+Boolean introduction
+True & False
+Strings
+(Unicode characters)
+Use ' or " for single line string expect using \ 
+Multi line uses ' ' ' or " " "
+Uses indexes like c
+Slicing
+Len() intro and -1 slicing
+
+
+List
+ Uses [ ]or list()
+Ordered sequences and flexible
+Mutable (values of elements of list can be altered)
+Slice
+
+
+Tuple
+ uses () or tuple()
+Ordered sequences and immutable
+Once create can't be modified
+Assignment error
+
+
+Set
+ Uses {} or set()
+Unordered unique collection
+Duplication not allowed
+Can't print particular elements in set due to unordered
+Set doesn't support indexing
+
+
+Dictionary
+Uses {key: value} or dict()
+Unordered collections
+Key-> unique
+If same key is used twice last enters value is updated 
+similar to hash table
+Key error
+
+
+
+
+Conversation between data types
+Int(),float(),str(),bool(),complex(),bin()
+Directly float string can't be converted into integer
+Valid and invalid literal
+Value error
+
+
+Concentration of string uses also +
+
+
+Convert list to string tupple and sets
+
+
+
+
+Standard input and output
+Input()
+Print()
+
+
+Output formating
+" Statement {}". format (a)
+Or "{1}". format (1=23)
+Or "{'a'}". format ('a'=56)
+String formating
+
+
+input -> return string
+Uses map also sometimes
+
+
+
+
+Operators
+Operand and operator 
+Arithmetic, logical(Boolean), relational and comparison , bitwise, assignment, special
+
+
+
+
+
+
+
+
+Arithmetic. 
++,-,,/,%,//,* are arithmetic
+Property on -ve and+ve 
+
+
+Comparison
+<,>,==,!=,<=,>=
+
+
+Logical
+
+
+And,or,not in c (&&,||,!)
+
+
+Bitwise
+Bin representative 
+&,|,~,^,>>,<<   
+ " (<<<,>>>) in c" 
+
+
+Assignment
+=,+=,-=,/=,%=,//=,**=,&=,|=,^=,<<= ,>>= 
+
+
+Special
+a=b=5
+a is b 
+True
+Same if same ponited address
+It works with int float string
+
+
+List is not compatible with is operator
+is and is not
+
+
+Membership 
+in and not in 
+Check elements found in string,list, tuple,set, dictionary (only keys)
+
+
+Flow control
+If else elif
+ If test expression :
+    Statement (s)
+Elif test expression:
+     Statement (s)
+Else :
+    Statement (s)
+
+
+Zero ,none , null and false are consider as false
+
+
+Same level Indentation
+Also allowed nested if
+
+
+Note there exists such a "level". I know that in C the limit is 127
+
+
+CPython 3.7 (and previous CPython versions), the limit is 20. 
+
+
+Loops
+While loop
+while test expression:
+Statements
+Else
+Final statement
+
+
+
+
+
+
+Each iteration check the test expression is true
+For loop
+
+
+For elemts in sequence:
+Statements
+Else:
+Statements
+
+
+Escape character
+
+Lists
+
+
+Data structure :-> collection of data elements [numbers, characters,etc..or other data structure] that is structured in someway (sequences)
+List is sequences data structure, collection of items, enclosed with [],each items contain a index values, elements are separated by "," comma , are mutable
+
+
+Creation of list
+List= [  ] or list()
+Let=['lets','go',[1,2,3],(1,2),{1,2},{1:4}]
+
+
+List length
+
+
+len(list object)
+
+
+List append
+
+
+Let.append('one elements added at a time in the end of list ')
+ Extend()
+ List insert
+Position=2
+Let.insert(position,"value")
+
+
+
+
+List remove
+
+
+Let.remove('objet or value to remove')
+Delete ()
+Drop()
+
+
+Append add single value while extend expand the list with n number of values passed to it at end of the list as elements
+
+
+List delete
+del Let[1] delete the elements are 1
+Let.pop(1) elements return and delete from list before deleting
+Remove('value or elements to remove finds the items and removes it')
+
+
+
+
+List related keywords
+"in"  and "not in" 
+'item' in list return true if present else false vice versa with not in
+List reverse
+Let.reverse()
+
+
+
+
+Sorting
+
+
+
+
+A=sorted(Let)
+Parameters reverse=True for backward sort
+It returns a new list take list as argument 
+Original is not changed
+
+
+Let.sort() sort the original list but work on similar data collection multiple data collection raise error of type error like string and number as we have to provide a comparison operator
+For custom data operator overloading should be done
+
+
+Lsit multiple references
+Let=[1,2,3,4,5]
+Abc=Let (works as pointer not a deepcopy)
+Abc.append(6)
+Print(Let) _>1,2,3,4,5,6
+String split gives list
+S='1,2,3,4,5'
+s=S.split(',') default is space or tab as it's a while character as delimiter
+
+
+List support indexing (both +ve and-ve) slicing
+
+
+Slicing [:] all
+[Start index default is 0:end index default is size +1 (len+1) :take this number of step default is 1]
+
+
+Extend using "+"
+Count to count number of frequency
+List loop are possible because it have iterratble function
+For loop is possible using list
+For i in list: statement
+
+
+
+
+List comprehension
+
+
+It provides a concise way ti create lists
+Application to make list for each element of results of operations applied to other and each member of sequence or iterratble or to create a subsequence of those elements that is applicable on condition
+
+
+Examples
+Sqrs=[]
+For i in list:
+    Sqrs.append(I**2)
+
+
+Similarly
+Sqrs=[I**2 for I in list]
+
+
+Lamda expression
+[ Operation for elemts in list conditions]
+[Operation or structure for u in list if condition]
+
+
+Nested list comprehension
+
+
+Examples
+May =[[1,2,3],[4,5,6]]
+Transpose=[]
+For li in range(3):
+  Let=[]
+  For i in may:
+    Let+=I[li]
+   Transpose+=Let
+
+
+Transpose=[[row [u] for row in May]for u in range(3)]
+
+
+Tuple
+Tuple are similar like list
+While creating tuple keep a comma besides string
+
+
+Examples
+T=("Hello")->string
+T=("Hello",)-> tuple
+Or t="Hello", tuple
+Only when there is single elements
+Indexing is allowed to access data in tuple
+
+
+Changing a tuple
+It can't be possible as it is immutable
+Raise type error
+
+
+Tuple deletion
+
+
+Del tuple can't delete individual elements
+
+
+Tuple.Count(object)
+Tuple.index(object)
+In and not in is used as membership operator
+
+
+Len(tuple object)
+At= Sorted(tuple object)
+Min ,sum and Max parameters is tuple object
+
+
+Sets
+
+
+Unordered unique collection mutable (add and remove)
+Set={elements} or set()
+
+
+
+
+We can create set from list,tuple
+Add a elements in set
+Set don't allow indexing
+Raise type error
+
+
+Set.add(object) single object at a time
+Set.update(object) multiple object can be added
+Remove we use
+Set.discard(object)
+Set.remove(object)
+Error in remove if elements is not there not same with discard
+set.pop() any elements in random
+Set.clear() removes all items
+
+
+Set operation
+Union is done by set1.union(set2) or set1 | set2
+
+
+Intersection is done by set1&set2 or set1.intersectuon(set2)
+
+
+Difference is done by set1 - set2 or set1 difference (set2)
+
+
+Symmetric difference
+Set1^set2
+Or set1.symmetric_difference(set2)
+
+
+To check subset "issubset() " is used
+Set1.issubset(set2)
+
+
+Frozen sets
+
+
+Have characters of sets but we can't change once it's assigned
+They are immutable version of set
+Created using frozenset()
+Sets being mutable are unhashable can't be used as dictionary keys while frozen sets are hashable and can be used as keys for dictionary
+It's support functions like
+Copy, difference, intersection,isdisjoint,issubset,issuperset, symmetric_difference,union
+No method add or remove
+
+
+Dictionary
+Similarly to hashtable
+
+
+. unordered collection of key values pairs
+
+
+Created
+Dict = {} or dict() 
+Key: value
+Keys should be unique
+
+
+Dict=dict ([(1,2),(2,3)]) create a dict like 
+{1:2,2:3}
+
+
+Search in dict is fast than list of tuples 
+
+
+Dict[key]
+Raise key error if key is not present
+Can use get(key)
+
+
+Add or modify
+
+
+Dict[key]=value
+
+
+Delete using pop(key)
+Or use popitem() randomly
+Or del dict[key]
+Or dict.clear() to remove all
+Or del dict to remove dictionary whole
+
+
+
+
+Dict.copy() to copy dictionary
+Fix={}. fromkeys(list of keys, value or value list)
+Dict.items() to get all elements return list of tuole
+Dict.keys() to get all keys return list of keys
+Dict.values() to get all valuse return list of values
+dir(dict) gives all the functions and variable present on the dictionary
+
+
+Dict compression
+
+
+A ={1:2,2:3}
+For p in A.items():
+Statements
+
+
+B ={key: value for key, value in A.items() condition like if v>2}
+C=={key+2: value*3 for key, value in A.items() condition like if v>2}
+
+
+Strings
+
+
+Sequence of characters
+Conversion of characters to number is called encoding reverse is decoding
+ANSI and unicode are popular one
+Python use unicode
+
+
+String is created by using single quote ' double quotes " or """ or ''' or str()
+Having indexing but with in the length of string
+Index error
+Indices have only integer 
+
+
+We can't modify the character of the present in perticular index
+They are immutable
+
+
+String operation
+
+
+Concatenation is done by + or concat() also *number special way
+
+
+String is iterratble
+Can use members ship in and  not in 
+String methods
+Lower() upper,join,split,find, replace
+Create w new and replace
+
+
+Palindrome prime sort and other programs
+
+Step 2 
+(.)[https://www.evernote.com/shard/s522/client/snv?noteGuid=079da79a-a86a-4fd7-8e8b-2c91645d2100&noteKey=32a31a4fd1aa8c5333646d5b0ee620db&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs522%2Fsh%2F079da79a-a86a-4fd7-8e8b-2c91645d2100%2F32a31a4fd1aa8c5333646d5b0ee620db&title=Step%2B2]
