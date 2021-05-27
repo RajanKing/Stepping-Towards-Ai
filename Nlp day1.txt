@@ -1,0 +1,9 @@
+What is NLP?
+What are different ways we do NLP?
+What are techinques we use in NLP?
+What are the problems we find in NLP?
+What is the apporch we take to solve NLP Problems?
+What are the mathematics invovded ?
+What are differnt libraries and research done?
+How can we improve the Nlp algorithms?
+How can we deploy the model?
