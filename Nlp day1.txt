@@ -1,4 +1,12 @@
 What is NLP?
+
+## What is NLP?
+
+Natural Language Processing is a Machine Learning Techinque used to understand Text formated data written in natural Language like English,French,German.. etc. and create a pattern or model or program which can help is giving required analysis, predictions,association and summary .
+There are various process and ways to work with NLP.
+
+The field of study that focuses on the interactions between human language and computers is called Natural Language Processing or NLP for short. It sits at the intersection of computer science, artificial intelligence, and computational linguistics (Wikipedia). 
+
 What are different ways we do NLP?
 What are techinques we use in NLP?
 What are the problems we find in NLP?
