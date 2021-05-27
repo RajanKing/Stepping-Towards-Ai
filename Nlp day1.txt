@@ -7,6 +7,10 @@ There are various process and ways to work with NLP.
 
 The field of study that focuses on the interactions between human language and computers is called Natural Language Processing or NLP for short. It sits at the intersection of computer science, artificial intelligence, and computational linguistics (Wikipedia). 
 
+NLP is a process of automation of computers to learn from text data and create a understanding over the data provided which result in a model or pattern .This Model or pattern help us to solve the problem occured in Data anaylsis.
+NLP पाठ डेटा से सीखने के लिए कंप्यूटर के स्वचालन की एक प्रक्रिया है और प्रदान किए गए डेटा पर एक समझ पैदा करता है जिसके परिणामस्वरूप एक मॉडल या पैटर्न होता है।यह मॉडल या पैटर्न डेटा विश्लेषण में हुई समस्या को हल करने में हमारी मदद करता है।
+
+
 What are different ways we do NLP?
 What are techinques we use in NLP?
 What are the problems we find in NLP?
