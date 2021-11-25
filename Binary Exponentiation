@@ -1,0 +1,1 @@
+Binary exponentiation is a powerful algorithmic technique, to calculate xy in O(log(y)), as compared to the naïve O(y).
