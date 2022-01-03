@@ -33,9 +33,32 @@ public tree1<Type> getRight(){
    
     return this.right;
 }
-
+public static void printInOrder(tree1 root){
+    if(root==null)
+    return ;
+    printInOrder(root.left);
+    System.out.println(root.data);
+    printInOrder(root.right);
+}
+public static void printPreOrder(tree1 root){
+    if(root==null)
+    return ;
+    System.out.println(root.data);
+   
+    printInOrder(root.left);
+    printInOrder(root.right);
+}
+public static void printPostOrder(tree1 root){
+    if(root==null)
+    return ;
+   
+    printInOrder(root.left);
+    printInOrder(root.right);
+    System.out.println(root.data);
+  
+}
     public static  void Dfs(tree1 root){
-        Stack<tree1>      stack = new Stack<>();
+      Stack<tree1>      stack = new Stack<>();
        
         
         stack.push(root);
@@ -81,5 +104,15 @@ b.setRight(e);
 c.setRight(g);
 g.setLeft(f);
  Dfs(a);
+ System.out.println("InOrder");
+
+ printInOrder(a);
+ System.out.println("PreOrder");
+
+ printPreOrder(a);
+ System.out.println("PostOrder");
+
+ printPostOrder(a);
+
 }
 }
