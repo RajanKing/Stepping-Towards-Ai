@@ -10,7 +10,7 @@
 7. project solving and many others
 
 
-Curriculem
+Curriculum
 
 # Data Science Learning Curriculum
 
