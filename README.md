@@ -392,3 +392,12 @@ A comprehensive learning path for mastering data science skills. This curriculum
   - [ ] Mentorship and Leadership:
     - [ ] Guiding and mentoring junior data scientists
     - [ ] Taking on leadership roles in the data science community
+
+## Tracking Completion
+
+- [ ] Create a GitHub account to track your progress.
+- [ ] Check off completed topics as you study and practice.
+
+## License
+
+This curriculum is provided under the [Creative Commons Attribution License](https://creativecommons.org/licenses/by/4.0/). You are encouraged to use, modify, and share this curriculum for educational purposes.
