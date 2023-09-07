@@ -16,7 +16,7 @@ Chip was no ordinary computer; he had an eccentric personality and an insatiable
 One sunny morning, Chip woke up to find himself bombarded with a series of illogical instructions. 
 These commands seemed to come from all directions, and poor Chip couldn't make heads or tails of them.
 
-![Confused Chip](../,./gif/huh-confused-cat.gif)
+![Confused Chip](https://github.com/RajanKing/Stepping-Towards-Ai/blob/main/gif/huh-confused-cat.gif)
 <p style="text-align: right">Credit: <cite>media.tenor.com</cite></p><br>
 
 ```
