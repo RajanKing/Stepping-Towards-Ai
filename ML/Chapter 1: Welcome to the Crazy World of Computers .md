@@ -1,5 +1,6 @@
----
 
+
+---
 # **Chapter 1: Welcome to the Crazy World of Computers**
 *In this chapter, we'll embark on our journey into the magical land of computer science.*
 
